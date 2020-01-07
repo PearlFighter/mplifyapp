@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+const REACT_VERSION = React.version;
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <p>
           Edit by California <code>src/App.js</code> and save to reload.
         </p>
+        <div>React version: {REACT_VERSION}</div>,
         <a
           className="App-link"
           href="https://reactjs.org"
